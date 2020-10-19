@@ -1,0 +1,23 @@
+{
+  "name": "car-tracking",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,css,md}\""
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-map-gl": "^5.2.9"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "license": "MIT"
+}
